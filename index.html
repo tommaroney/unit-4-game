@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Star Battle</title>
+</head>
+<body>
+    <div class="container-fluid background">
+        <div class="row text-light">
+            <h1>Star Battle RPG</h1>
+        </div>
+        <div class="container-fluid transparent" id="mainC">
+            <div class="row">
+                <div class="card mr-2" id="solo-card">
+                    <h5 class="card-title text-center text-dark">
+                        <span id="hanHP">HP = 150</span>
+                    </h5>
+                    <div class="card-body"><img  class="img-standard" src="assets/images/HanSolo.jpg"/></div>
+                    <h5 class="card-title text-center text-dark">Han Solo</h5>
+                </div>
+                <div class="card mr-2" id="chewie-card">
+                    <h5 class="card-title text-center text-dark">
+                        <span id="chewieHP">HP = 150</span>
+                    </h5>
+                    <div class="card-body"><img class="img-standard" src="assets/images/chewbacca.jpg"/></div>
+                    <h5 class="card-title text-center text-dark">Chewbacca</h5>
+                </div>
+                <div class="card mr-2" id="luke-card">
+                    <h5 class="card-title text-center text-dark">
+                        <span id="lukeHP">HP = 150</span>
+                    </h5>
+                    <div class="card-body"><img class="img-standard" src="assets/images/skywalker.jpg"/></div>
+                    <h5 class="card-title text-center text-dark">Luke Skywalker</h5>
+                </div>
+                <div class="card mr-2" id="binks-card">
+                    <h5 class="card-title text-center text-dark">
+                        <span id="binksHP">HP = 150</span>
+                    </h5>
+                    <div class="card-body"><img class="img-standard" src="assets/images/binks.jpg"/></div>
+                    <h5 class="card-title text-center text-dark">Jar Jar Binks</h5>
+                </div>
+            </div>
+            <div class="row text-light">
+                <div class="col-12-fluid">
+                    <h2>Your Character</h2>
+                    <div id="characterSlot" class="row"></div>
+                </div>
+            </div>
+            <div class="row text-light">
+                <div class="col-12-fluid" id="enemies-container">
+                    <h2>Enemies Available to Attack</h2>
+                    <div id="enemiesSlot" class="row"></div>
+                </div>
+            </div>
+            <div class="row text-light">
+                <h2>Fight Section</h2>
+            </div>
+            <div class="row text-light">
+                <button class="btn btn-light" id="attack">Attack</button>
+            </div>
+            <div class="row text-light">
+                <div class="col-12-fluid">
+                    <h2>Defender</h2>
+                    <div id="defenderSlot" class="row"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

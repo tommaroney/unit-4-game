@@ -1,0 +1,14 @@
+html, body, .container-fluid {
+    height: 100%;
+}
+
+.img-standard {
+    width: 150px;
+}
+
+.background {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
